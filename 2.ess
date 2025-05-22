@@ -1,0 +1,9 @@
+#include <stdio.h>
+int main() 
+{
+    int num;
+    printf("Введите целое число: ");
+    scanf("%d", &num);
+    printf("Число %s\n", (num % 2 == 0) ? "четное" : "нечетное");
+    return 0;
+}
